@@ -3,8 +3,7 @@
 Welcome!
 
 This module, TeamCode, is the place where you will write/paste the code for your team's
-robot controller App. This module is currently empty (a clean slate) but the
-process for adding OpModes is straightforward.
+robot controller App. The process for adding OpModes is straightforward.
 
 ## Creating your own OpModes
 
@@ -15,6 +14,15 @@ To locate these samples, find the FtcRobotController module in the "Project/Andr
 
 Expand the following tree elements:
  FtcRobotController/java/org.firstinspires.ftc.robotcontroller/external/samples
+
+### OpMode naming conventions for the MECHABYTE team
+
+The name of each OpMode used for testing and development purposes has the following structure: `(Auto / Teleop)<Name>(Dev / Test)`. 
+The `<Name>` part should reflect the part that is being tested. If left empty, the file will be used as the main development file.
+
+The name of each Autonomous OpMode used during the competition has the following structure: `_Auto(Red / Blue)(Pub / Back)`
+
+The TeleOp OpMode used during the competition is simply named: `_Teleop`
 
 ### Naming of Samples
 
